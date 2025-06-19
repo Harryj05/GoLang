@@ -25,4 +25,9 @@ func main() {
 
 		champ:="Champion"
 		fmt.Println(person)
+
+		var Public = "Data is important"//Initialize with cap letter to use in any package
+		var private = "data is private"//initialize with small letter to use in one package
+		
+
 }
