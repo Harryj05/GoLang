@@ -23,6 +23,5 @@ func main() {
 		fmt.Println("Spring")
 	default:
 		fmt.Println("Other season")
-
 	}
 }
