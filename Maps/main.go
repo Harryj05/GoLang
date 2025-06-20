@@ -33,7 +33,7 @@ func main() {
 	fmt.Println("Prince exits: ", Exists)
 
 	for index, value := range studentGrade {
-		fmt.Printf("Key is %s and marks is %s\n", index, value)
+		fmt.Printf("Key is %s and marks is %d\n", index, value)
 	}
 
 	person := map[string]int{
