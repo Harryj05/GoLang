@@ -15,19 +15,19 @@ func modifyValueByReference(num *int) {
 }
 
 func main() {
-	num := 2
+	//num := 2
 	// var ptr *int
 	// ptr = &num
-	ptr := &num
+	//ptr := &num
 
-	fmt.Println("Num has value:", num)
-	fmt.Println("Pointer contains:", ptr)
-	fmt.Println("Data through Pointer:", *ptr)
+	//fmt.Println("Num has value:", num)
+	//fmt.Println("Pointer contains:", ptr)
+	//fmt.Println("Data through Pointer:", *ptr)
 
-	var pointer *int
-	if pointer == nil {
-		fmt.Println("Pointer is not assigned")
-	}
+	// var pointer *int
+	// if pointer == nil {
+	// 	fmt.Println("Pointer is not assigned")
+	// }
 
 	value := 10
 	modifyValueByReference(&value)
